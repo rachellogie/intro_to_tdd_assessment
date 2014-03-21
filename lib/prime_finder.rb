@@ -1,7 +1,10 @@
+require 'prime'
+
+
 class PrimeFinder
 
   def prime_number?(num)
-    true
+    Prime.prime?(num)
   end
 
 end
